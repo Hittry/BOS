@@ -1,0 +1,18 @@
+  161  su
+  162  sudo
+  163  sudo nano hd
+  164  sudo -s
+  165  su
+  166  cd test
+  167  cat file
+  168  su
+  169  cat file
+  170  su
+  171  cat file
+  172  ls -lR > lab2_1
+  173  cd ..
+  174  ls -lR > lab2_1
+  175  sudo ls -lR > lab2_1
+  176  ls
+  177  less lab2_1
+  178  history > lab2_2

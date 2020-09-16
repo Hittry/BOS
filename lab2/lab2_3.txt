@@ -1,0 +1,62 @@
+    1  whoami
+    2  mkdir test
+    3  cd test
+    4  touch file
+    5  ls -l
+    6  chmod go-rwx test
+    7  chmod go-rwx file
+    8  ls -l
+    9  nano test
+   10  ls -l
+   11  rm test
+   12  nano file
+   13  cat file
+   14  chmod ugo-rwx file
+   15  ls-l
+   16  ls -l
+   17  nano file
+   18  cat file
+   19  ll
+   20  chmod u+w file
+   21  ll
+   22  nano file
+   23  chmod ug+w file
+   24  ll
+   25  chmod g-w file
+   26  ll
+   27  vim file
+   28  cat file
+   29  chmod g+r file
+   30  ll
+   31  cat file
+   32  chmod u+r file
+   33  ls -l
+   34  nano test
+   35  rm test
+   36  ls
+   37  nano file
+   38  cat file
+   39  mkdir dir
+   40  cd dir
+   41  touch new_file
+   42  nano new_file
+   43  ls
+   44  chmod ugo-rwx dir
+   45  cd ..
+   46  ll
+   47  chmod ugo-rwx dir
+   48  ll
+   49  cat dir/new_file
+   50  rm dir/new_file
+   51  chown root: file
+   52  chown :root: file
+   53  chown :root file
+   54  umask
+   55  umask 077
+   56  touch file1
+   57  ll
+   58  umask 0000
+   59  touch file2
+   60  ll
+   61  cd ..
+   62  history > lab2_3
